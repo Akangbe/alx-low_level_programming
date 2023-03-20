@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="main.c"; gcc -Wall -Werror -Wextra -pedantic "$CFILE" -o cisfun
+gcc $CFILE -o cisfun
