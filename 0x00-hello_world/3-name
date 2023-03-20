@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Set the name of the C file to compile
-CFILE="main.c"
-
-# Compile the C file and create an executable named cisfun
-gcc -Wall -Werror -Wextra -pedantic "$CFILE" -o cisfun
-
+CFILE="main.c"; gcc -Wall -Werror -Wextra -pedantic "$CFILE" -o cisfun
